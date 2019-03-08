@@ -2,7 +2,6 @@ var inquirer  = require('inquirer');
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-    verify connection
     host: '127.0.0.1',
     user: 'root',
     password: 'root',
